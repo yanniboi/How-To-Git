@@ -13,6 +13,9 @@ public class DestrucableTiles : MonoBehaviour
         _shadowCaster = GetComponent<ShadowCaster2DTileMap>();
     }
     
+    /**
+     * This will clear tiles from the tilemap and then update the shadows.
+     */
     private void DestroyTile(Vector3 tile)
     {
         _tilemap.SetTile(_tilemap.WorldToCell(tile), null);
