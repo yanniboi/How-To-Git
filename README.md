@@ -1,6 +1,8 @@
 # GDFG-17
 Jam Game for GDFG 17 Team Jam
 
+The game is about cats driving taxis.
+
 ### Summary
 
 TBC
